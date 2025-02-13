@@ -6,7 +6,7 @@
 
  <!-- string data type-->
  <?php
-    $name = "omkar";  //double quotes
+    $name = "Ram";  //double quotes
     $surName = 'palav'; //single quotes
 
     // echo $name;
