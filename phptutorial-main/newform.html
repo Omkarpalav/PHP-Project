@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      form {
+        margin-top: 10px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        border: 1px solid black;
+        border-radius: 10px;
+        width: 300px;
+        background-color: blue;
+        color: white;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <form action="action.php" method="post">
+        <input type="number" name="id" placeholder="Enter The ID" />
+        <input type="text" name="name" id="name" placeholder="Enter ur name" />
+        <input
+          type="text"
+          name="address"
+          id="address"
+          placeholder="Enter the Address"
+        />
+        <input
+          type="number"
+          name="number"
+          id="number"
+          placeholder="Enter the Phone Number"
+        />
+        <input type="submit" name="submit" />
+        <input type="reset" value="Reset" />
+      </form>
+    </center>
+  </body>
+</html>
